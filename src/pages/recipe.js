@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 const Recipe = () => {
   return (
     <Layout>
-      hello from recipe page
+     <h5>hello from recipe page</h5> 
     </Layout>
   )
 }

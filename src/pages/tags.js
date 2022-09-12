@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 const Tag = () => {
   return (
     <Layout>
-      hello from tags page
+      <h5>hello from tags page</h5>
     </Layout>
   )
 }
