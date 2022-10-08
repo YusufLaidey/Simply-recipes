@@ -17,9 +17,8 @@ const About = () => {
               retro.</p>
             <Link to='/contact' className='btn'>Contact Us</Link>
           </article>
-          <StaticImage
-            src='../assets/images/about.jpeg' alt='someone pouring Salt in bowl'  className='about-img' placeholder='blurred'  />
-            </section>
+          <StaticImage src='../assets/images/about.jpeg' alt='someone pouring Salt in bowl'  className='about-img' placeholder='blurred'  />
+        </section>
       </main>
     </Layout>
   )
