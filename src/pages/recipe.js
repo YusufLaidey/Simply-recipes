@@ -1,11 +1,15 @@
 import React from 'react'
 
 import Layout from '../components/Layout'
+import AllRecipes from '../components/AllRecipes'
 
 const Recipe = () => {
   return (
     <Layout>
-     <h5>hello from recipe page</h5> 
+     <main className='page'>
+     <AllRecipes/>
+     </main> 
+     
     </Layout>
   )
 }
