@@ -31,9 +31,8 @@ const AllRecipes = () => {
   console.log(recipes)
   return (
     <section className='recipes-container'>
-      <h4>all recipes</h4>
-      <RecipesList recipes={recipes} />
       <TagsList recipes={recipes} />
+      <RecipesList recipes={recipes} />
     </section>
   )
 }
