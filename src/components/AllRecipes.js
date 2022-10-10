@@ -28,7 +28,6 @@ const AllRecipes = () => {
   const data = useStaticQuery(query)
   // const {allContentfulRecipe:{nodes:recipes}} = useStaticQuery(query)
   const recipes = data.allContentfulRecipe.nodes
-  console.log(recipes)
   return (
     <section className='recipes-container'>
       <TagsList recipes={recipes} />
