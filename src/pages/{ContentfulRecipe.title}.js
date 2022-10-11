@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
-import { BsClockHistory, BsClock, Bspeople, BsPeople } from 'react-icons/bs'
+import { BsClockHistory, BsClock, BsPeople } from 'react-icons/bs'
 
 const RecipeTemplate = ({ data }) => {
     const {
