@@ -9,7 +9,7 @@ import SEO from "../components/SEO"
 const About = ({ data:{allContentfulRecipe:{nodes: recipes}} }) => {
   return (
     <Layout>
-      <SEO title='About Page' description='this is about page'/>
+      <SEO title='About Page' />
       <main className='page'>
         <section className='about-page'>
           <article>

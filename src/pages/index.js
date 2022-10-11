@@ -9,7 +9,7 @@ import SEO from "../components/SEO"
 export default function Home() {
   return (
   <Layout>
-    <SEO title='Home Page' description='this is home page'/>
+    <SEO title='Home Page' />
     <main className="page">
     <header className="hero">
       <StaticImage src="../assets/images/main.jpeg" alt="eggs" className="hero-img" placeholder="tracedSVG" layout="fullWidth"/>

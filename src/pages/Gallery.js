@@ -3,6 +3,8 @@ import Layout from '../components/Layout'
 import { useStaticQuery, graphql } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
+import SEO from '../components/SEO'
+
 import styled from 'styled-components'
 
 const query = graphql`
@@ -28,6 +30,7 @@ const Gallery = () => {
     const nodes = data.allFile.nodes
   return (
     <Layout>
+    <SEO title='Gallery page' />
     <Wrapper>
       {nodes.map((image, index) => {
         const {name} = image

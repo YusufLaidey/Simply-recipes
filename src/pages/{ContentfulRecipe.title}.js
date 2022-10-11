@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/Layout'
+import SEO from "../components/SEO"
 import { graphql, Link } from 'gatsby'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
@@ -21,6 +22,7 @@ const RecipeTemplate = ({ data }) => {
     
   return (
     <Layout>
+    <SEO title={title} description={description} />
       <main className='page'>
         <div className='recipe-page'>
           {/* hero */}

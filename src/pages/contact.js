@@ -4,11 +4,13 @@ import RecipesList from '../components/RecipesList'
 
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import SEO from "../components/SEO"
 
 const Contact = ({data}) => {
   const recipes = data.allContentfulRecipe.nodes
   return (
     <Layout>
+    <SEO title='Contact Page' />
    <main className='page'>
     <section className='contact-page'>
     <article className='contact-info'>
