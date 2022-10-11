@@ -4,10 +4,12 @@ import React from 'react'
 
 import Layout from '../components/Layout'
 import RecipesList from '../components/RecipesList'
+import SEO from "../components/SEO"
 
 const About = ({ data:{allContentfulRecipe:{nodes: recipes}} }) => {
   return (
     <Layout>
+      <SEO title='About Page' description='this is about page'/>
       <main className='page'>
         <section className='about-page'>
           <article>
