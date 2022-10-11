@@ -2,7 +2,7 @@ import React from 'react'
 
 import RecipesList from '../components/RecipesList'
 
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
 const Contact = ({data}) => {
@@ -24,7 +24,8 @@ const Contact = ({data}) => {
       </p>
       </article>
       <article>
-        <form className='form contact-form'>
+        <form className='form contact-form' action="https://formspree.io/f/xvoyqqba"
+             method="POST">
           <div className='form-row'>
             <label htmlFor='name'>Your Name</label>
             <input type='text' name='name' id='name' placeholder='Enter your Name'/>
